@@ -1,4 +1,3 @@
-//Getting Inputs
 import java.util.Scanner;
 
 public class GettingInputs
@@ -26,7 +25,7 @@ public class GettingInputs
         System.out.println("SONG DETAILS");
         System.out.println("---------------------------------------------");
 
-        System.out.println("Year Released: "+ year + "\nGenre: "+ genre + "\nAlbum: "+ album + "\nTitle: " + song + "\nArtist: " + artist );
+        System.out.println("Year Released: "+ year + "\nGenre: "+ genre + "\nAlbum: "+ album + "\nTitle: \"" + song + "\"" + "\nArtist: " + artist );
         scan.close();
     }
 }
