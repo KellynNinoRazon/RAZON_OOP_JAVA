@@ -4,14 +4,9 @@ class GetArrayMean
 {
     public static void getArrayMean(int n,int sum,int[]array)
     {
-        
         int mean=0;
-        for(int ctr=0; ctr<n;ctr++)
-        {
-            sum+=array[ctr];
-            mean=sum/n;
-            System.out.println("Mean of array is: " + mean);
-        }
+        mean=sum/n;
+        System.out.println("Mean of array is: " + mean);
     }
     
      public static void main(String[] args) 
