@@ -1,4 +1,4 @@
-public class Square implements Shapes
+public class Square implements Shape
 {
     private double side;
     private double Area;
@@ -11,12 +11,12 @@ public class Square implements Shapes
         this.Perimeter=getPerimeter();
     }
 
-    public double getArea()
+    public double getArea(double side)
     {
         return side*side;
     }
 
-    public double getPerimeter() 
+    public double getPerimeter(double side) 
     {
         return 4 * side;
     }
@@ -26,7 +26,7 @@ public class Square implements Shapes
         System.out.println("Square");
     }
 
-    printShapeType();
+    
     System.out.println("Area: " + Area);
     System.out.println("Perimeter: " + Perimeter);
 
