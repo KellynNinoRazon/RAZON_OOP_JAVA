@@ -27,8 +27,7 @@ public class Rectangle implements Shape
     public void printShapeType() 
     {
         System.out.println("Rectangle");
+        System.out.println("Area: " + Area);
+        System.out.println("Perimeter: " + Perimeter);
     }
-
-    System.out.println("Area: " + Area);
-    System.out.println("Perimeter: " + Perimeter);
 }

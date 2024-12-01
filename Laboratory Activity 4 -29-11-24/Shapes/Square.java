@@ -11,12 +11,12 @@ public class Square implements Shape
         this.Perimeter=getPerimeter();
     }
 
-    public double getArea(double side)
+    public double getArea()
     {
         return side*side;
     }
 
-    public double getPerimeter(double side) 
+    public double getPerimeter() 
     {
         return 4 * side;
     }
@@ -24,10 +24,11 @@ public class Square implements Shape
     public void printShapeType() 
     {
         System.out.println("Square");
+        System.out.println("Area: " + Area);
+        System.out.println("Perimeter: " + Perimeter);
     }
 
     
-    System.out.println("Area: " + Area);
-    System.out.println("Perimeter: " + Perimeter);
+    
 
 }

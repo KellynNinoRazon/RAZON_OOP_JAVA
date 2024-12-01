@@ -17,12 +17,12 @@ public class Triangle implements Shape
         this.Area=getArea();
     }
 
-    public double getArea(double a,double b, double c)
+    public double getArea()
     {
         return Math.sqrt(s * (s - a) * (s - b) * (s - c));
     }
 
-    public double getPerimeter(double a,double b, double c) 
+    public double getPerimeter() 
     {
         return a+b+c;
     }
@@ -30,9 +30,10 @@ public class Triangle implements Shape
     public void printShapeType() 
     {
         System.out.println("Triangle");
+        System.out.println("Area: " + Area);
+        System.out.println("Perimeter: " + Perimeter);
     }
 
     
-    System.out.println("Area: " + Area);
-    System.out.println("Perimeter: " + Perimeter);
+    
 }
